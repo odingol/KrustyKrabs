@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
 .navbar{
     display: flex;
     justify-content: center;
@@ -59,5 +63,13 @@ padding: auto;
         flex-wrap: wrap;
     }  
 }
+
+section{
+    background-color: antiquewhite;
+    height: 100vh;
+    border: solid black 1px;
+}
+
+footer
 
 
