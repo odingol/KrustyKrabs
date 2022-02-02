@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: SomeTimeLater;
-    src: url("../fonts/SomeTimeLater.otf");
+    src: url("../../fonts/SomeTimeLater.otf");
 }
 body{
     margin: 0;
