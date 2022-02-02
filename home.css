@@ -1,15 +1,24 @@
+
+@font-face {
+    font-family: SomeTimeLater;
+    src: url("../fonts/SomeTimeLater.otf");
+}
 body{
     margin: 0;
-    background-color: blanchedalmond;
+    background-color: rgba(154, 29, 29, 0.865);
+    font-family: SomeTimeLater;
 }
+.header{
+    text-align: center;
+}
+/*NavBar*/
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(154, 29, 29, 0.865);
     position: sticky;
     top: 0;
-
 }
 .navbar ul{
     display: flex;
@@ -17,45 +26,60 @@ body{
     margin: 20px 0px;
 }
 .navbar ul li{
-    font-family: century;
-    font-size: 1.1rem;
+    font-size: 40px;
     font-weight: bold;
+
 }
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(31, 17, 17);
     padding: 8px 25px;
     transition: all .5s ease;
+    border-radius: 50px;
 }
 .navbar ul li a:hover{
     background-color: white;
     color: black;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 40px white;
+    border-radius: 50px;
 }
-
-.reviews{
-display: flex;
-justify-content: space-around;
-padding: auto;
-}
-
-.subsection-1{
+.homepage{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
-
-
-.image-b{
-    margin-top: 25px;
-    width: 500px;
+/* Reviews*/
+#reviews{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
-
-.review-1{
-    width: 300px;
-    height: 500px;
-    margin: 15px;
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(0,0,.05) 50%, white 50% );
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(0,0,.05);
 }
 @media only screen and (max-width:1000px){
     .review-container{
