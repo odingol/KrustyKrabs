@@ -1,59 +1,88 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 @font-face {
     font-family: SomeTimeLater;
     src: url("../Project-1-KrustyKrabs/fonts/SomeTimeLater.otf");
 }
 body{
-    margin: 0;
-    background-color: rgba(154, 29, 29, 0.865);
+    background-color: rgba(157, 29, 29, 0.927);
     font-family: SomeTimeLater;
 }
-.header{
-    text-align: center;
+/*-----LOGO-----*/
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*NavBar*/
+.header-logo{
+    max-height: 60px;
+}
+/*-----MAPS BUTTON-----*/
+#header-maps-icon{
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    right: 10px;
+    top: 10px;
+    align-items: right;
+}
+.fas{
+    font-size: 40px;
+    background-color: rgba(167, 160, 160, 0.927);
+    border-color: rgba(157, 29, 29, 0.927);
+}
+/*-----NavBar-----(ASK GROUP HOW THEY"D LIKE THIS TO LOOK)*/
 .navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(154, 29, 29, 0.865);
-    position: sticky;
+    background-color: rgba(157, 29, 29, 0.927);
     top: 0;
 }
 .navbar ul{
     display: flex;
     list-style: none;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .navbar ul li{
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
-
 }
 .navbar ul li a{
     text-decoration: none;
     color: rgb(31, 17, 17);
-    padding: 8px 25px;
+    padding: 8px 60px;
     transition: all .5s ease;
     border-radius: 50px;
 }
 .navbar ul li a:hover{
     background-color: white;
-    color: black;
     box-shadow: 0 0 40px white;
     border-radius: 50px;
 }
-.homepage{
+/*------The Krusty Krabs Building Photo-----*/
+#homepage{
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(157, 29, 29, 0.927)
 }
-/* Reviews*/
+.main-image{
+    width: 90%;
+    padding: 30px;
+    margin: 20px;
+}
+/*-----Reviews-----*/
 #reviews{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 100px;
+    background: url('images/background-footer.jpeg.crdownload') no-repeat bottom center/cover;
 }
+/*---try to find padding for just the top and bottom---*/
 .row{
     display: flex;
     justify-content: space-around;
@@ -63,17 +92,17 @@ body{
 .box{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 340px;
     height: 450px;
-    border: 1px solid black;
-    margin: 10px;
+    border: 5px solid black;
+    margin: 7px;
     align-items: center;
     text-align: justify;
     padding: 10px;
-    border-radius: 15px;
-    background: linear-gradient(to top, rgb(0,0,.05) 50%, white 50% );
+    border-radius: 30px;
+    background: linear-gradient(to top, rgb(33, 181, 201) 50%, white 50% );
     background-size: 100% 200%;
-    transition: all .8s;
+    transition: all .7s;
 }
 .box:hover{
     background-position: left bottom;
@@ -82,8 +111,33 @@ body{
     box-shadow: 0 0 20px rgb(0,0,.05);
 }
 .image-b{
-    max-width: 300px;
-
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border-width: 10px;
+    background-color: rgba(157, 29, 29, 0.927)
+}
+/*-----ABOUT US------*/
+#about-us{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.history{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.video{
+    align-content: center;
+    text-align: center;
+    box-sizing: content-box;
+    border-color: 10px black;
+    border-radius: 10px;
+    height: 50px;  
+    width: 50px;
 }
 @media only screen and (max-width:1000px){
     .review-container{
@@ -91,13 +145,24 @@ body{
         flex-wrap: wrap;
     }  
 }
-
+/*----I think we will need this for making the website responsive----*/
 section{
     background-color: antiquewhite;
-    height: 100vh;
     border: solid black 1px;
 }
-
-footer
+/*-----CONTACT US------*/
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.opcty{
+    font-size: 50px;
+    background: url('images/background-footer.jpeg.crdownload') no-repeat bottom center/cover;
+    box-sizing: border-box;
+    background-color: rgba(155, 139, 116, 0.564);
+}
 
 
