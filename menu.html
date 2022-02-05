@@ -256,62 +256,64 @@
                     </div>
                 </div>
             </div>
-    </section>
 
-    <!-- Modal placeholder (Subject to Change) -->
-    <div class="modalBox" id="dialog" title="Your Cart Items">
+            <!-- Modal placeholder (Subject to Change) -->
+            <div class="modalBox" id="dialog" title="Your Cart Items">
+                <ul class='displayList'>
+                </ul>
+                <button id="opener-2">Confirm Order</button>
+            </div>
+               
+            <button class="opener" id="opener">Shopping Cart</button>
+              
+            <div class="modalBox" id="dialog-2" title="Order Complete!">
+              <p>Your order has been submitted.</p>
+              <p>
+                  Estimated Arrival Time: <b>30 minutes</b>.
+              </p>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+            <script>
+            $( function shoppingCart() {
+                $( "#dialog" ).dialog({
+                  autoOpen: false,
+                  show: {
+                    effect: "blind",
+                    duration: 1000
+                  },
+                  hide: {
+                    effect: "explode",
+                    duration: 1000
+                  }
+                });
+              
+                $( "#opener" ).on( "click", function shoppingCart() {
+                  $( "#dialog" ).dialog( "open" );
+                });
+                $( "#dialog-2" ).dialog({
+                    autoOpen: false,
+                    show: {
+                      effect: "open",
+                      duration: 500
+                    },
+                    hide: {
+                      effect: "close",
+                      duration: 500
+                    }});
+               
+                  $( "#opener-2" ).on( "click", function() {
+                    $( "#dialog-2" ).dialog( "open" );
+                  });
+              } );
+            </script>
         
-        <button id="opener-2">Confirm Order</button>
-    </div>
-       
-    <button id="opener">Shopping Cart</button>
-      
-    <div class="modalBox" id="dialog-2" title="Order Complete!">
-      <p>Your order has been submitted.</p>
-      <p>
-          Estimated Arrival Time: <b>30 minutes</b>.
-      </p>
-    </div>
-       
+        
+        <script src="menu.js"></script>
+    </section>
+    
        
 </body>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <script>
-    $( function shoppingCart() {
-        $( "#dialog" ).dialog({
-          autoOpen: false,
-          show: {
-            effect: "blind",
-            duration: 1000
-          },
-          hide: {
-            effect: "explode",
-            duration: 1000
-          }
-        });
-      
-        $( "#opener" ).on( "click", function shoppingCart() {
-          $( "#dialog" ).dialog( "open" );
-        });
-        $( "#dialog-2" ).dialog({
-            autoOpen: false,
-            show: {
-              effect: "open",
-              duration: 500
-            },
-            hide: {
-              effect: "close",
-              duration: 500
-            }});
-       
-          $( "#opener-2" ).on( "click", function() {
-            $( "#dialog-2" ).dialog( "open" );
-          });
-      } );
-    </script>
-
-
-<script src="menu.js"></script>
 
 </html>
