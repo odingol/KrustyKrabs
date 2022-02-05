@@ -14,7 +14,7 @@ var menuItems = [
     count: 0,
   },
 
-  { 
+  {
     name: "NASTY PATTY x",
     count: 0,
   },
@@ -61,6 +61,7 @@ var menuItems = [
 ];
 
 var section = document.querySelector(".style-section");
+var opener = document.querySelector(".opener");
 
 section.addEventListener("click", function (event) {
   if (event.target.classList.contains("minus")) {
@@ -85,6 +86,30 @@ section.addEventListener("click", function (event) {
     localStorage.setItem(menuItem.name, menuItem.count);
   }
 });
+
+opener.addEventListener("click", function () {
+  var listItem = document.querySelector("#dialog ul");
+  
+  while(listItem.hasChildNodes()) {
+    listItem.removeChild(listItem.firstChild);
+  }
+
+    for (var i = 0; i < menuItems.length; i++) {
+      var quantity = localStorage.getItem(menuItems[i].name);
+
+      if (quantity != null && quantity > 0) {
+        var newList = document.createElement('li');
+        newList.classList.add('list');
+        newList.textContent = menuItems[i].name + quantity;
+        listItem.appendChild(newList);
+      }
+
+    }
+});
+
+// Put inside the event listener to display orders that returned more than
+// var example = menuItems.filter(m => m.count > 0);
+// var example2 = menuItems.filter(m => m.name === 'Water x');
 
 
 
