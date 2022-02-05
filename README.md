@@ -66,7 +66,7 @@ Chris's Tasks/Processes:
 
 YouTube API Code: 
 
-![YouTubeAPICode](./images/youtube-API-code.PNG "YouTube API Code")
+![YouTubeAPICode](./images/YouTube-API-code.PNG "YouTube API Code")
 
 YouTube API:
 
