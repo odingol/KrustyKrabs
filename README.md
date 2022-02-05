@@ -95,7 +95,7 @@ Daniel's Tasks/Processes:
 
 Google Maps API Code:
 
-![GoogleMapsAPICode](./images/google-maps-API.PNG "Google Maps API Code")
+![GoogleMapsAPICode](./images/google-maps-API-code.PNG "Google Maps API Code")
 
 Google Maps API:
 
