@@ -23,7 +23,7 @@ AS A group of aspiring software and web developers
 
 WE WANTED to create a responsive webpage that featured a variety of modals and APIs through the lense of a character from SpongeBob SquarePants
 
-SO THAT we could showcase our collective development skills and give users a nostalgic and fun website for them to browse.
+SO THAT we could showcase our collective development skills and give users a nostalgic and fun website experience for them to browse.
 
 
 BEGINNING STEPS
@@ -33,7 +33,7 @@ BEGINNING STEPS
 
 2. Once an idea was selected, the next step was to create a basic wireframe of what we invisioned our webpage to look like.
 
-3. Break out our larger group into sub groups with specific pages/tasks for each group to reduce the risk of overlap with merge conflicts.
+3. Break out our larger group into sub groups with specific pages/tasks for each group to reduce the risk of overlap with merge conflicts and evenly distribute workloads.
 
 4. Research APIs that we would like to include on our webpage and determine where we would like them to be presented/how we would like them to be implemented.
 
@@ -44,7 +44,7 @@ BEGINNING STEPS
 FIRST PROJECT IDEA
 -
  
-Create a responsive website for a finctional restaurant that would allow for users to view "customer" reviews, see how far they are from the store's location, and select items from a menu that would be displayed in a shopping cart modal.
+Create a responsive website for a fictional restaurant that would allow for users to view "customer" reviews, see how far they are from the store's location, and select items from a menu that would be displayed in a shopping cart modal.
 
 
 PROJECT WIREFRAME
