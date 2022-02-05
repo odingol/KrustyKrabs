@@ -16,17 +16,19 @@
         <img class="header-logo" src="images/The_Krusty_Krab_Logo.jpeg" alt="KrustyKrabLogo">
     </header> 
     <header id="header-maps-icon">
+        
         <button class="maps-btn">
             <i class="fas fa-map-marked-alt"></i>
         </button>
     </header> 
+    
 </section>
 <nav class="navbar">
-    <ul>
+    <ul><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA48CgCbL7lhzlkZywZJ0awohsmKm6Mxso&map_ids=fac143795426e16a&callback=initMap"></script>
         <li><a href="#homepage">HOME</a></li>
         <li><a href="#reviews">REVIEWS</a></li>
         <li><a href="#about-us">ABOUT US</a></li>
-        <li><a href="#menu">MENU</a></li>
+        <li><a href="menu.html">MENU</a></li>
         <li><a href="#contact-us">CONTACT US</a></li>
     </ul>
 </nav>
@@ -44,7 +46,7 @@
         </div>
         <div class="box">
             <img class="image-b" src="images/review1.jpeg" alt="Happy Customers on a date">
-                <p>Took a first date here cause I really wanted it to be the last date. Unfortunatly, the food came out delicious and very fresh tasting. They were not rude to my date at all, which pissed me off cause I was totally banking on that.</p>
+                <p>Took a first date here cause I really wanted it to be the last date. Unfortunately, the food came out delicious and very fresh tasting. They were not rude to my date at all, which pissed me off cause I was totally banking on that.</p>
             <h1 class="headings">-Lori</h1>
         </div>
         <div class="box">
@@ -56,24 +58,35 @@
     </div>
 </section>
 <section id=about-us>
-    <h1 class="history">History of The Krusty Krabs</h1>
+    <h1 class="history">History of The Krusty Krab</h1>
         <p>The Krusty Krab is known for being established to sell the Krabby Patty burger. The Krabby Patty was invented by King Krabs, an ancestor of restaurant-founder Eugene H. Krabs. The recipe was kept secret for over 800 years. After the war, Eugene H. Krabs stayed secluded in a deep depression that seemed endless. He inherited his family's secret recipe for the Krabby Patty. Krabs was also a financial wizard, which made his business successful.</p>
         <p>The building is known to have been converted from a retirement home known as the "Rusty Krab." Krabs merely painted a "K" in front of the word "Rusty," thus leading to the name "Krusty Krab", as mentioned in the episode, "Krusty Krab Training Video". SpongeBob is the first employee of the Krusty Krab to take a break since the Chum Famine of 59', mentioned in the episode Hooky. The Krusty Krab was almost run out of business from a minor competitor known as the Shell Shack, and once from SpongeBob's short-lived Pretty Patties stand. It also faces continual problems from its main competitor, the Chum Bucket and its owner, Plankton.
         </p>
-    <h2>Training Video</h2>
-        <div class="video">
-            <p>[video]</p>
+ 
+        <div id="video">
+            <iframe width="1000" height="500" src="https://www.youtube.com/embed/W77ZN_hVEE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
         </div>
+</section>
+
+<section id="location">
+        <div id="map"></div>
 </section>
 
 <section id="contact-us">
     <div class="opcty">
         <h3 >Contact Us:</h3>
-            <p>krustyKrabs@gmail.com</p>
-            <p>Phone Number:888-555-krab</p> 
+            <p>TheKrustyKrab@gmail.com</p>
+            <p>Phone Number:888-555-KRAB</p> 
     </div>
 </section> 
-     
+    <script src="youtube.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA48CgCbL7lhzlkZywZJ0awohsmKm6Mxso&map_ids=fac143795426e16a&callback=initMap"></script>
     <script src="home.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    
+    
 </body>
 </html>   
