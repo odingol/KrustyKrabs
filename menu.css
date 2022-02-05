@@ -7,12 +7,17 @@
 
 /* Header Section */
 
-header {
-    display:flex;
+@font-face {
+    font-family: SomeTimeLater;
+    src: url("../Project-1-KrustyKrabs/fonts/SomeTimeLater.otf");
+}
+body{
+    background-color: rgba(157, 29, 29, 0.927);
+    font-family: SomeTimeLater;
 }
 
 .menuHeader {
-    background-color: rgb(46, 180, 180);
+    background: url('images/background-rednorange.jpeg') no-repeat bottom center/cover;
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -24,16 +29,18 @@ header {
     align-items: center;
     padding:2%;
     font-size:30px;
-    font-style: italic;
     color:black;
 
 }
 
 .homeButton {
+    text-align: center;
+    color: black;
+    border-radius: 20px;
     padding:5px;
     margin:14px;
-    width:100%;
-    background-color: rgba(255, 255, 0, 0.973);
+    width: 50%;
+    background-color: rgba(255, 255, 0, 0.324);
 }
 
 
@@ -42,13 +49,11 @@ header {
 
 body {
     min-height:100vh;
-    background: linear-gradient(rgba(119, 169, 197, 0.822), rgb(83, 150, 189), rgb(61, 134, 177));
     width:100%;
 }
 
 h2 {
     font-size:40px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom:20px;
 }
 
@@ -84,6 +89,7 @@ h3 {
 .wrap-image {
     display:flex;
     flex-wrap: wrap;
+    
 }
 
 
@@ -98,6 +104,7 @@ h3 {
     display:flex;
     flex-direction:column;
     align-items: center;  /*key section to adjust the column direction*/
+    
 
 }
 
@@ -111,6 +118,7 @@ h3 {
 .style-section {
     padding-left:290px; /*Adjusts the outside padding of the order section*/
     padding-right:290px;
+    
 }
 
 
@@ -118,7 +126,6 @@ h3 {
 .menuSection {
     margin-top:90px;
 }
-
 .quantity-box {
     display:flex;
     flex-direction:row;
@@ -127,13 +134,11 @@ h3 {
     margin-top:40px;
     width:15%;
 }
-
 .minus,
 .add {
     width:100px;
     height:50px;
 }
-
 .style-quantity {
     font-size:40px;
     background-color: azure;
@@ -141,10 +146,78 @@ h3 {
     padding-right:10px;
 
 }
+#krabbypatty{
+    background: url('images/background-rednorange.jpeg') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+#krabbypatty2{
+    background: url('images/BGpiapl.png') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+#krabbypatty3{
+    background: url('images/background-rednorange.jpeg') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+#krabbypatty4{
+    background: url('images/BGpiapl.png') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+
+#interoceanicitems{
+    background: url('images/background-rednorange.jpeg') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+#interoceanicitems2{
+    background: url('images/BGpiapl.png') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+
+#beverages{
+    background: url('images/background-rednorange.jpeg') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+#beverages2{
+    background: url('images/BGpiapl.png') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+}
+#opener-2{
+    font-size: 30px;
+    border-width: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#opener{
+    font-size: 30px;
+    border-width: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
 
 
 
 /* Modal Section */
 
+.modalBox{
+    background: url('images/BGpretty.jpeg') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+    margin: 10px;
+    text-align: left;
+}
+.opener{
+    background: url('images/BGpretty.jpeg') no-repeat;
+    background-size: cover;
+    border-width: 10px;
+    margin: 10px;
+    text-align: center;
+}
 
 
