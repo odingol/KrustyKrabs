@@ -189,10 +189,11 @@ h3 {
     border-width: 10px;
 }
 #opener-2{
-    font-size: 30px;
+    font-size: 15px;
     border-width: 5px;
     padding: 10px;
     border-radius: 15px;
+    align-items: center;
 }
 #opener{
     font-size: 30px;
@@ -201,6 +202,13 @@ h3 {
     border-radius: 15px;
 }
 
+.modalBox li{
+    padding: 10px;
+}
+
+.modalBox p{
+    padding: 10px;
+}
 
 
 /* Modal Section */
@@ -211,6 +219,7 @@ h3 {
     border-width: 10px;
     margin: 10px;
     text-align: left;
+    border: 2px solid black;
 }
 .opener{
     background: url('images/BGpretty.jpeg') no-repeat;
