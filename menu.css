@@ -213,12 +213,17 @@ h3 {
 
 /* Modal Section */
 
+.displayList {
+    text-align: left;
+    position:relative;
+    left:20px;
+}
+
 .modalBox{
     background: url('images/BGpretty.jpeg') no-repeat;
     background-size: cover;
     border-width: 10px;
     margin: 10px;
-    text-align: left;
     border: 2px solid black;
 }
 .opener{
@@ -227,6 +232,24 @@ h3 {
     border-width: 10px;
     margin: 10px;
     text-align: center;
+    width:150px;
+    height:60px;
+    position:fixed;
+    bottom:90px;
+    left:20px;
+
 }
+
+.ui-dialog {
+    background: url('images/BGpretty.jpeg') no-repeat;
+    text-align: center;
+    font-size:23px;
+    padding:15px;
+    position:fixed;
+
+}
+
+
+
 
 

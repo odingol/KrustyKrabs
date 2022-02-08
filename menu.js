@@ -112,4 +112,6 @@ opener.addEventListener("click", function () {
 // var example2 = menuItems.filter(m => m.name === 'Water x');
 
 
+var array = ['love','cute','awesome']
 
+var array2 = [ {name:'cool'}, {type:'awesome'}]
