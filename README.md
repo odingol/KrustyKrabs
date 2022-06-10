@@ -118,5 +118,5 @@ FUTURE DEVELOPMENT IDEAS
 DEPLOYED APPLICATION AND REPOSITORY
 -
 
-[DeployedRestaurantWebsite](https://taylor25et.github.io/Project-1-KrustyKrabs/)
+[DeployedRestaurantWebsite](https://animated-taffy-0b25b0.netlify.app)
 [DeployedProjectRepository](https://github.com/Taylor25et/Project-1-KrustyKrabs.git)
