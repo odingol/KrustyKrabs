@@ -1,4 +1,4 @@
-# Project-1-KrustyKrabs
+# KrustyKrabs
 
 PROJECT GROUP MEMBERS
 -
